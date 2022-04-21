@@ -1,0 +1,117 @@
+/* Global style  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* For desktop: */
+.row{width: 100%;float: left;}
+.col-1 {width: 8.33%;float: left;}
+.col-2 {width: 16.66%;float: left;}
+.col-3 {width: 25%;float: left;}
+.col-4 {width: 33.33%;float: left;}
+.col-5 {width: 41.66%;float: left;}
+.col-6 {width: 50%;float: left;}
+.col-7 {width: 58.33%;float: left;}
+.col-8 {width: 66.66%;float: left;}
+.col-9 {width: 75%;float: left;}
+.col-10 {width: 83.33%;float: left;}
+.col-11 {width: 91.66%;float: left;}
+.col-12 {width: 100%;float: left;}
+.underline {
+    display: block;
+    width: 55%;
+    border-bottom: 5px solid #00fff0;
+    margin: auto;
+}
+.btn{
+    color: #fff;
+    cursor: pointer;
+    padding: 10PX;
+    border-radius: 30PX;
+    border: none;
+background-color:#2500f9 ;
+}
+.btn:hover{
+    color: #2500f9;
+    background-color: transparent;
+    border: 1px solid #2500f9;
+}
+.mane{
+    text-align: center;
+}
+.objective{
+    position: relative;
+    top: 30px;
+}
+.pr{
+    position: relative;
+    right: 100px;
+    font-size: 30px;
+}
+.cv{
+    width: 30%;
+    position: relative;
+    right: 100px;
+}
+.wi{
+    position: relative;
+    left: 7px;
+    top: 10px;
+    font-size: 17px;
+}
+table, th, td {
+    margin: 50px 0px 0px 350px;
+    border:1px solid black;
+  }
+  .ed{
+    position: relative;
+    right: 215px;
+    top: 10px;
+    font-size: 30px;
+  }
+  .cb{
+    width: 13%;
+    position: relative;
+    top: 5px;
+    right: 217px;
+  }
+  .ub{
+    width: 22%;
+    position: relative;
+    top: 5px;
+    right: 217px;
+  }
+  .ml , .lm , .pm{
+      text-align: left;
+      border: 0;
+      width: 40%;
+      position: relative;
+      
+  }
+  .un{
+    width: 18%;
+    position: relative;
+    top: 5px;
+    right: 217px;
+  }
+  .by{
+      text-align: left;
+      position: relative;
+      left: 400px;
+      top: 10px;
+  }
+  .aj{
+    width: 18%;
+    position: relative;
+    top: 42px;
+    right: -118px;
+  }
+  .em{
+    position: relative;
+    right: -118px;
+    top: 42px;
+    font-size: 30px;
+  }
